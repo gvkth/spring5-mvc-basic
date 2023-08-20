@@ -10,7 +10,7 @@ import a.b.c.dao.CustomerDAO;
 import a.b.c.entity.Customer;
 
 @Service
-public class CustomerServiceImpl implements CustomerDAO {
+public class CustomerServiceImpl implements CustomerService {
 
 	//need to inject customer DAO
 	@Autowired
